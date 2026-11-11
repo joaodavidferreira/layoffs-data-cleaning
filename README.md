@@ -62,6 +62,14 @@ This experience reinforced the importance of checking data after transformations
 
 - `layoffs_data_cleaning.sql` — SQL script containing the data cleaning process.
 
+## How to Run the Project
+
+1. Import `layoffs.csv` into MySQL as a table named `layoffs`.
+2. Execute `layoffs_data_cleaning.sql` in MySQL Workbench.
+3. Review the cleaned dataset in the `layoffs_staging2` table.
+
+**Note:** Run the script only once in a schema containing the original `layoffs` table, as it creates additional staging tables.
+
 ## Acknowledgements
 
 This project was developed by following the SQL Data Cleaning tutorial from **Alex The Analyst's Data Analyst Bootcamp**.
